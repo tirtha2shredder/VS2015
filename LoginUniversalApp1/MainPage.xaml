@@ -48,7 +48,7 @@
                 <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
-            <Button Name="Login" Content="Login" Margin="10" FontSize="20" Padding="20,0,20,0"/>
+            <Button Name="Login" Content="Login" Margin="10" FontSize="20" Padding="20,0,20,0" Click="Login_Click"/>
                 <Button Name="Reset" Grid.Column="1" Content="Reset" HorizontalAlignment="Right" Margin="10" FontSize="20" Padding="20,0,20,0"/>
         </Grid>
 

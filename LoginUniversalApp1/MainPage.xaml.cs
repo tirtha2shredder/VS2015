@@ -42,5 +42,11 @@ namespace LoginUniversalApp1
         {
             Window.Current.CoreWindow.PointerCursor = new CoreCursor(CoreCursorType.Arrow, 0);
         }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            if (Uname.Text == "xyz")
+                Frame.Navigate(typeof(LoginUniversalApp1.Tasks));
+        }
     }
 }
