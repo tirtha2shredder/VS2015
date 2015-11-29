@@ -8,6 +8,22 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="524" Margin="0,106,0,0" VerticalAlignment="Top" Width="350">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <ListBoxItem Width="460" Height="120">
+                        <ListBoxItem.Content>
+                            <StackPanel Width="400" Height="80">
+                                <TextBlock Width="380" Height="40" FontSize="30" Text="{Binding subject}">
+                                </TextBlock>
+                                <TextBlock  Width="380" Height="40" FontSize="20" Text="{Binding loc}"></TextBlock>
+                            </StackPanel>
+                        </ListBoxItem.Content>
+                    </ListBoxItem>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="grades" VerticalAlignment="Top" Height="91" Width="274" FontSize="40"/>
 
     </Grid>
 </Page>

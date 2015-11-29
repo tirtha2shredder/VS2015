@@ -14,8 +14,9 @@
                     <ListBoxItem Width="460" Height="120">
                         <ListBoxItem.Content>
                             <StackPanel Width="400" Height="80">
-                                <TextBlock Width="380" Height="80" FontSize="20" Text="{Binding subject}">
-                                </TextBlock>
+                                <TextBlock Width="380" Height="40" FontSize="30" Text="{Binding subject}">
+                               </TextBlock>
+                                <HyperlinkButton  Width="380" Height="40" FontSize="7" NavigateUri="Tasks.xaml"></HyperlinkButton>
                             </StackPanel>
                         </ListBoxItem.Content>
                     </ListBoxItem>   
