@@ -24,7 +24,18 @@ namespace LoginUniversalApp1
     {
         public Pending()
         {
+           
             this.InitializeComponent();
+            Loaded += new RoutedEventHandler(page_loaded);
+           
         }
+        void page_loaded(object sender,RoutedEventArgs e)
+        {
+            List<PendJson> transaction = new List<PendJson>();
+            
+    
+            listBox.ItemsSource = transaction;
+        }
+     
     }
 }
