@@ -1,15 +1,15 @@
 {
         "subject": [
             {
-                "name": "math",
+                "name": "Computer Networks",
                 "loc": "#"
             },
             {
-                "name": "phy",
+                "name": "Database Management Systems",
                 "loc": "#"
             },
             {
-                "name": "chem",
+                "name": "Algorithms",
                 "loc": "#"
             }
         ]

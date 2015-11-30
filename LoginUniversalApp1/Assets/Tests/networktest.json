@@ -1,0 +1,45 @@
+﻿{
+  "test": "Computer Networks",
+  "numques": "4",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the subnet mask of Class C IPv4 address?",
+      "choices": {
+        "a": "/8",
+        "b": "/12",
+        "c": "/16",
+        "d": "/24"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is not a part of the TCP/IP protocol stack?",
+      "choices": {
+        "a": "Network Layer",
+        "b": "Application Layer",
+        "c": "Presentation Layer",
+        "d": "Transport Layer"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": "What is the speed of Fast Ethernet?",
+      "choices": {
+        "a": "10Mbps",
+        "b": "100Mbps",
+        "c": "500Mbps",
+        "d": "1Gbps"
+      }
+    },
+    {
+      "type": "sub",
+      "question": "Write a short note on Firewall (Max 100 words).",
+      "choices": {
+        "max": "100",
+        "min": "10"
+      }
+    }
+
+  ]
+}

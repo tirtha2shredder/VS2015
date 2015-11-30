@@ -1,0 +1,38 @@
+﻿{
+  "test": "Design and Analysis of Algorithms",
+  "numques": "3",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Worst case complexity of merge sort is",
+      "choices": {
+        "a": "O(n)",
+        "b": "O(n^2)",
+        "c": "O(n logn)",
+        "d": "O(n log logn)"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is able to detect cycles in the graph?",
+      "choices": {
+        "a": "DFS",
+        "b": "Prim's Algorithm",
+        "c": "Bellman Ford Algorithm",
+        "d": "Dikjstra's Algorithm",
+        "e": "A* Search"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is able to detect cycles in the graph?",
+      "choices": {
+        "a": "DFS",
+        "b": "Prim's Algorithm",
+        "c": "Bellman Ford Algorithm",
+        "d": "Dikjstra's Algorithm"
+      }
+    }
+
+  ]
+}

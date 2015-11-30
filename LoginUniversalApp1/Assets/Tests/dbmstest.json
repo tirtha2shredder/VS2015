@@ -1,0 +1,33 @@
+﻿{
+  "test": "Database Management Systems",
+  "numques": "3",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which of the following is not dependency preserving?",
+      "choices": {
+        "a": "1NF",
+        "b": "2NF",
+        "c": "3NF",
+        "d": "4NF"
+      }
+    },
+    {
+      "type": "mcq",
+      "question": "A table can have more than one primary key.",
+      "choices": {
+        "a": "True",
+        "b": "False"
+      }
+    },
+    {
+      "type": "sub",
+      "question": "Describe code optimization within 200 words.",
+      "choices": {
+        "max": "200",
+        "min": "10"
+      }
+    }
+
+  ]
+}

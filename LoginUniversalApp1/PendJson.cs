@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LoginUniversalApp1
 {
-    class PendJson
+    class PendJson 
     {
         public String subject { get; set; }
         public String loc { get; set; }
